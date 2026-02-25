@@ -54,9 +54,6 @@ opt.mouse = ""
 opt.backupdir = "~/.vim/backup,~/,."
 opt.directory = "~/.vim/tmp,~/,."
 
--- Enable 24-bit RGB colors
-vim.o.termguicolors = true
-
 -- Syntax highlighting and filetype plugins
 vim.cmd("syntax enable")
 vim.cmd("filetype plugin indent on")
