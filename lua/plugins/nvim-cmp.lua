@@ -29,8 +29,8 @@ return {
 
     cmp.setup({
       completion = {
-        -- completeopt = "menu,menuone,preview,noselect",
-        autocomplete = false
+        completeopt = "menu,menuone,preview,noselect",
+        -- autocomplete = false
       },
       -- snippet = { -- on utilise luasnip comme moteur de snippets
       --   expand = function(args)
